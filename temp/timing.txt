@@ -1,0 +1,169 @@
+
+#
+# CprE 381 toolflow Timing dump
+#
+
+FMax: 30.57mhz Clk Constraint: 20.00ns Slack: -12.71ns
+
+The path is given below
+
+ ===================================================================
+ From Node    : ID_EX_Register:ID_EX|dffNbit:A12|dffgate:\G1:0:ndff|s_Q
+ To Node      : EX_MEM_Register:EXMEM|dffNbit:A3|dffgate:\G1:19:ndff|s_Q
+ Launch Clock : iCLK
+ Latch Clock  : iCLK
+ Data Arrival Path:
+ Total (ns)  Incr (ns)     Type  Element
+ ==========  ========= ==  ====  ===================================
+      0.000      0.000           launch edge time
+      3.074      3.074  R        clock network delay
+      3.306      0.232     uTco  ID_EX_Register:ID_EX|dffNbit:A12|dffgate:\G1:0:ndff|s_Q
+      3.306      0.000 FF  CELL  ID_EX|A12|\G1:0:ndff|s_Q|q
+      3.768      0.462 FF    IC  A7|A2|\A2:0:and_i|A20|Mux0~0|dataa
+      4.174      0.406 FR  CELL  A7|A2|\A2:0:and_i|A20|Mux0~0|combout
+      4.398      0.224 RR    IC  A7|A2|\A2:1:and_i|A20|Mux0~2|datac
+      4.685      0.287 RR  CELL  A7|A2|\A2:1:and_i|A20|Mux0~2|combout
+      5.099      0.414 RR    IC  A7|A2|\A2:1:and_i|A20|Mux0~5|datad
+      5.254      0.155 RR  CELL  A7|A2|\A2:1:and_i|A20|Mux0~5|combout
+      5.454      0.200 RR    IC  A7|A2|\A2:1:and_i|A20|Mux0~6|datac
+      5.741      0.287 RR  CELL  A7|A2|\A2:1:and_i|A20|Mux0~6|combout
+      5.977      0.236 RR    IC  A7|A2|\A2:2:and_i|A20|Mux0~2|datad
+      6.132      0.155 RR  CELL  A7|A2|\A2:2:and_i|A20|Mux0~2|combout
+      6.335      0.203 RR    IC  A7|A2|\A2:2:and_i|A20|Mux0~3|datac
+      6.622      0.287 RR  CELL  A7|A2|\A2:2:and_i|A20|Mux0~3|combout
+      6.855      0.233 RR    IC  A7|A2|\A2:3:and_i|A20|Mux0~1|datad
+      6.994      0.139 RF  CELL  A7|A2|\A2:3:and_i|A20|Mux0~1|combout
+      7.226      0.232 FF    IC  A7|A2|\A2:3:and_i|A20|Mux0~3|datac
+      7.506      0.280 FF  CELL  A7|A2|\A2:3:and_i|A20|Mux0~3|combout
+      7.769      0.263 FF    IC  A7|A2|\A2:4:and_i|A20|Mux0~2|datad
+      7.894      0.125 FF  CELL  A7|A2|\A2:4:and_i|A20|Mux0~2|combout
+      8.125      0.231 FF    IC  A7|A2|\A2:4:and_i|A20|Mux0~3|datac
+      8.406      0.281 FF  CELL  A7|A2|\A2:4:and_i|A20|Mux0~3|combout
+      8.666      0.260 FF    IC  A7|A2|\A2:5:and_i|A20|Mux0~1|datad
+      8.791      0.125 FF  CELL  A7|A2|\A2:5:and_i|A20|Mux0~1|combout
+      9.024      0.233 FF    IC  A7|A2|\A2:5:and_i|A20|Mux0~3|datac
+      9.304      0.280 FF  CELL  A7|A2|\A2:5:and_i|A20|Mux0~3|combout
+      9.708      0.404 FF    IC  A7|A2|\A2:6:and_i|A20|Mux0~1|datad
+      9.833      0.125 FF  CELL  A7|A2|\A2:6:and_i|A20|Mux0~1|combout
+     10.065      0.232 FF    IC  A7|A2|\A2:6:and_i|A20|Mux0~2|datac
+     10.346      0.281 FF  CELL  A7|A2|\A2:6:and_i|A20|Mux0~2|combout
+     10.608      0.262 FF    IC  A7|A2|\A2:7:and_i|A20|Mux0~2|datad
+     10.733      0.125 FF  CELL  A7|A2|\A2:7:and_i|A20|Mux0~2|combout
+     10.964      0.231 FF    IC  A7|A2|\A2:7:and_i|A20|Mux0~3|datac
+     11.245      0.281 FF  CELL  A7|A2|\A2:7:and_i|A20|Mux0~3|combout
+     11.504      0.259 FF    IC  A7|A2|\A2:8:and_i|A20|Mux0~2|datad
+     11.629      0.125 FF  CELL  A7|A2|\A2:8:and_i|A20|Mux0~2|combout
+     11.862      0.233 FF    IC  A7|A2|\A2:8:and_i|A20|Mux0~3|datac
+     12.143      0.281 FF  CELL  A7|A2|\A2:8:and_i|A20|Mux0~3|combout
+     12.406      0.263 FF    IC  A7|A2|\A2:9:and_i|A20|Mux0~2|datad
+     12.531      0.125 FF  CELL  A7|A2|\A2:9:and_i|A20|Mux0~2|combout
+     12.762      0.231 FF    IC  A7|A2|\A2:9:and_i|A20|Mux0~3|datac
+     13.043      0.281 FF  CELL  A7|A2|\A2:9:and_i|A20|Mux0~3|combout
+     13.304      0.261 FF    IC  A7|A2|\A2:10:and_i|A20|Mux0~1|datad
+     13.429      0.125 FF  CELL  A7|A2|\A2:10:and_i|A20|Mux0~1|combout
+     13.662      0.233 FF    IC  A7|A2|\A2:10:and_i|A20|Mux0~3|datac
+     13.942      0.280 FF  CELL  A7|A2|\A2:10:and_i|A20|Mux0~3|combout
+     14.197      0.255 FF    IC  A7|A2|\A2:11:and_i|A20|Mux0~1|datac
+     14.478      0.281 FF  CELL  A7|A2|\A2:11:and_i|A20|Mux0~1|combout
+     14.873      0.395 FF    IC  A7|A2|\A2:11:and_i|A20|Mux0~2|datad
+     14.998      0.125 FF  CELL  A7|A2|\A2:11:and_i|A20|Mux0~2|combout
+     15.259      0.261 FF    IC  A7|A2|\A2:12:and_i|A20|Mux0~2|datad
+     15.384      0.125 FF  CELL  A7|A2|\A2:12:and_i|A20|Mux0~2|combout
+     15.621      0.237 FF    IC  A7|A2|\A2:12:and_i|A20|Mux0~3|datac
+     15.902      0.281 FF  CELL  A7|A2|\A2:12:and_i|A20|Mux0~3|combout
+     16.161      0.259 FF    IC  A7|A2|\A2:13:and_i|A20|Mux0~2|datad
+     16.286      0.125 FF  CELL  A7|A2|\A2:13:and_i|A20|Mux0~2|combout
+     16.518      0.232 FF    IC  A7|A2|\A2:13:and_i|A20|Mux0~3|datac
+     16.799      0.281 FF  CELL  A7|A2|\A2:13:and_i|A20|Mux0~3|combout
+     17.061      0.262 FF    IC  A7|A2|\A2:14:and_i|A20|Mux0~2|datad
+     17.186      0.125 FF  CELL  A7|A2|\A2:14:and_i|A20|Mux0~2|combout
+     17.418      0.232 FF    IC  A7|A2|\A2:14:and_i|A20|Mux0~3|datac
+     17.699      0.281 FF  CELL  A7|A2|\A2:14:and_i|A20|Mux0~3|combout
+     17.958      0.259 FF    IC  A7|A2|\A2:15:and_i|A20|Mux0~1|datad
+     18.083      0.125 FF  CELL  A7|A2|\A2:15:and_i|A20|Mux0~1|combout
+     18.317      0.234 FF    IC  A7|A2|\A2:15:and_i|A20|Mux0~3|datac
+     18.597      0.280 FF  CELL  A7|A2|\A2:15:and_i|A20|Mux0~3|combout
+     18.858      0.261 FF    IC  A7|A2|\A2:16:and_i|A20|Mux0~2|datad
+     19.008      0.150 FR  CELL  A7|A2|\A2:16:and_i|A20|Mux0~2|combout
+     19.383      0.375 RR    IC  A7|A2|\A2:16:and_i|A20|Mux0~4|datac
+     19.653      0.270 RF  CELL  A7|A2|\A2:16:and_i|A20|Mux0~4|combout
+     19.912      0.259 FF    IC  A7|A2|\A2:17:and_i|A20|Mux0~3|datad
+     20.037      0.125 FF  CELL  A7|A2|\A2:17:and_i|A20|Mux0~3|combout
+     20.269      0.232 FF    IC  A7|A2|\A2:17:and_i|A20|Mux0~4|datac
+     20.550      0.281 FF  CELL  A7|A2|\A2:17:and_i|A20|Mux0~4|combout
+     20.810      0.260 FF    IC  A7|A2|\A2:18:and_i|A20|Mux0~2|datad
+     20.935      0.125 FF  CELL  A7|A2|\A2:18:and_i|A20|Mux0~2|combout
+     21.167      0.232 FF    IC  A7|A2|\A2:18:and_i|A20|Mux0~4|datac
+     21.447      0.280 FF  CELL  A7|A2|\A2:18:and_i|A20|Mux0~4|combout
+     21.710      0.263 FF    IC  A7|A2|\A2:19:and_i|A20|Mux0~2|datad
+     21.835      0.125 FF  CELL  A7|A2|\A2:19:and_i|A20|Mux0~2|combout
+     22.070      0.235 FF    IC  A7|A2|\A2:19:and_i|A20|Mux0~4|datac
+     22.350      0.280 FF  CELL  A7|A2|\A2:19:and_i|A20|Mux0~4|combout
+     22.610      0.260 FF    IC  A7|A2|\A2:20:and_i|A3|U7|o_F~0|datad
+     22.735      0.125 FF  CELL  A7|A2|\A2:20:and_i|A3|U7|o_F~0|combout
+     22.968      0.233 FF    IC  A7|A2|\A2:20:and_i|A20|Mux0~1|datac
+     23.249      0.281 FF  CELL  A7|A2|\A2:20:and_i|A20|Mux0~1|combout
+     23.509      0.260 FF    IC  A7|A2|\A2:21:and_i|A20|Mux0~0|datad
+     23.634      0.125 FF  CELL  A7|A2|\A2:21:and_i|A20|Mux0~0|combout
+     23.866      0.232 FF    IC  A7|A2|\A2:21:and_i|A20|Mux0~1|datac
+     24.147      0.281 FF  CELL  A7|A2|\A2:21:and_i|A20|Mux0~1|combout
+     24.837      0.690 FF    IC  A7|A2|\A2:22:and_i|A3|U7|o_F~0|datad
+     24.962      0.125 FF  CELL  A7|A2|\A2:22:and_i|A3|U7|o_F~0|combout
+     25.194      0.232 FF    IC  A7|A2|\A2:22:and_i|A20|Mux0~1|datac
+     25.474      0.280 FF  CELL  A7|A2|\A2:22:and_i|A20|Mux0~1|combout
+     25.737      0.263 FF    IC  A7|A2|\A2:23:and_i|A3|U7|o_F~0|datad
+     25.862      0.125 FF  CELL  A7|A2|\A2:23:and_i|A3|U7|o_F~0|combout
+     26.093      0.231 FF    IC  A7|A2|\A2:23:and_i|A20|Mux0~1|datac
+     26.373      0.280 FF  CELL  A7|A2|\A2:23:and_i|A20|Mux0~1|combout
+     26.622      0.249 FF    IC  A7|A2|\A2:24:and_i|A20|Mux0~11|datad
+     26.747      0.125 FF  CELL  A7|A2|\A2:24:and_i|A20|Mux0~11|combout
+     27.009      0.262 FF    IC  A7|A2|\A2:25:and_i|A20|Mux0~0|datad
+     27.134      0.125 FF  CELL  A7|A2|\A2:25:and_i|A20|Mux0~0|combout
+     27.366      0.232 FF    IC  A7|A2|\A2:25:and_i|A20|Mux0~1|datac
+     27.647      0.281 FF  CELL  A7|A2|\A2:25:and_i|A20|Mux0~1|combout
+     27.907      0.260 FF    IC  A7|A2|\A2:26:and_i|A3|U7|o_F~0|datad
+     28.032      0.125 FF  CELL  A7|A2|\A2:26:and_i|A3|U7|o_F~0|combout
+     28.263      0.231 FF    IC  A7|A2|\A2:26:and_i|A20|Mux0~1|datac
+     28.543      0.280 FF  CELL  A7|A2|\A2:26:and_i|A20|Mux0~1|combout
+     28.806      0.263 FF    IC  A7|A2|\A2:27:and_i|A3|U7|o_F~0|datad
+     28.931      0.125 FF  CELL  A7|A2|\A2:27:and_i|A3|U7|o_F~0|combout
+     29.164      0.233 FF    IC  A7|A2|\A2:27:and_i|A20|Mux0~1|datac
+     29.444      0.280 FF  CELL  A7|A2|\A2:27:and_i|A20|Mux0~1|combout
+     29.833      0.389 FF    IC  A7|A2|\A2:28:and_i|A3|U7|o_F~0|datad
+     29.958      0.125 FF  CELL  A7|A2|\A2:28:and_i|A3|U7|o_F~0|combout
+     30.191      0.233 FF    IC  A7|A2|\A2:28:and_i|A20|Mux0~1|datac
+     30.471      0.280 FF  CELL  A7|A2|\A2:28:and_i|A20|Mux0~1|combout
+     30.734      0.263 FF    IC  A7|A2|\A2:29:and_i|A3|U7|o_F~0|datad
+     30.859      0.125 FF  CELL  A7|A2|\A2:29:and_i|A3|U7|o_F~0|combout
+     31.103      0.244 FF    IC  A7|A2|\A2:29:and_i|A20|Mux0~1|datac
+     31.383      0.280 FF  CELL  A7|A2|\A2:29:and_i|A20|Mux0~1|combout
+     31.624      0.241 FF    IC  A7|A2|\A2:30:and_i|A20|Mux0~0|datad
+     31.749      0.125 FF  CELL  A7|A2|\A2:30:and_i|A20|Mux0~0|combout
+     31.984      0.235 FF    IC  A7|A2|\A2:31:and_i|A3|U2|o_F|datac
+     32.265      0.281 FF  CELL  A7|A2|\A2:31:and_i|A3|U2|o_F|combout
+     32.996      0.731 FF    IC  A7|A2|\A2:31:and_i|A19|Mux0~1|datad
+     33.121      0.125 FF  CELL  A7|A2|\A2:31:and_i|A19|Mux0~1|combout
+     33.347      0.226 FF    IC  A7|A2|\A2:31:and_i|A19|Mux0~2|datad
+     33.497      0.150 FR  CELL  A7|A2|\A2:31:and_i|A19|Mux0~2|combout
+     33.712      0.215 RR    IC  Mux37~6|datad
+     33.851      0.139 RF  CELL  Mux37~6|combout
+     34.081      0.230 FF    IC  EXMEM|A3|\G1:4:ndff|s_Q~0|datad
+     34.231      0.150 FR  CELL  EXMEM|A3|\G1:4:ndff|s_Q~0|combout
+     35.060      0.829 RR    IC  A13|o_F[19]~35|datad
+     35.199      0.139 RF  CELL  A13|o_F[19]~35|combout
+     35.426      0.227 FF    IC  A13|o_F[19]~36|datad
+     35.576      0.150 FR  CELL  A13|o_F[19]~36|combout
+     35.576      0.000 RR    IC  EXMEM|A3|\G1:19:ndff|s_Q|d
+     35.663      0.087 RR  CELL  EX_MEM_Register:EXMEM|dffNbit:A3|dffgate:\G1:19:ndff|s_Q
+ Data Required Path:
+ Total (ns)  Incr (ns)     Type  Element
+ ==========  ========= ==  ====  ===================================
+     20.000     20.000           latch edge time
+     22.946      2.946  R        clock network delay
+     22.954      0.008           clock pessimism removed
+     22.934     -0.020           clock uncertainty
+     22.952      0.018     uTsu  EX_MEM_Register:EXMEM|dffNbit:A3|dffgate:\G1:19:ndff|s_Q
+ Data Arrival Time  :    35.663
+ Data Required Time :    22.952
+ Slack              :   -12.711 (VIOLATED)
+ ===================================================================

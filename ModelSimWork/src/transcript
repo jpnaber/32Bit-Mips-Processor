@@ -1,0 +1,49 @@
+# Compile of single_cycle_processor.vhd failed with 1 errors.
+# Compile of tb_Second_MIPS_Application.vhd was successful.
+# Compile of Second_MIPS_Application.vhd was successful.
+# Compile of control_logic_module.vhd was successful.
+# Compile of two_to_one_mux.vhd was successful.
+# Compile of ALU_Barrel_Shifter.vhd was successful.
+# Compile of Barrel_Shifter.vhd was successful.
+# Compile of alu_control.vhd failed with 1 errors.
+# 8 compiles, 2 failed with 2 errors.
+# Compile of single_cycle_processor.vhd failed with 1 errors.
+# Compile of tb_Second_MIPS_Application.vhd was successful.
+# Compile of Second_MIPS_Application.vhd was successful.
+# Compile of control_logic_module.vhd was successful.
+# Compile of two_to_one_mux.vhd was successful.
+# Compile of ALU_Barrel_Shifter.vhd was successful.
+# Compile of Barrel_Shifter.vhd was successful.
+# Compile of alu_control.vhd failed with 14 errors.
+# 8 compiles, 2 failed with 15 errors.
+# Compile of alu_control.vhd failed with 12 errors.
+# Compile of alu_control.vhd failed with 10 errors.
+# Compile of alu_control.vhd failed with 9 errors.
+# Compile of alu_control.vhd failed with 81 errors.
+# Compile of alu_control.vhd failed with 7 errors.
+# Compile of alu_control.vhd failed with 6 errors.
+# Compile of alu_control.vhd failed with 5 errors.
+# Compile of alu_control.vhd failed with 5 errors.
+# Compile of alu_control.vhd failed with 4 errors.
+# Compile of alu_control.vhd failed with 3 errors.
+# Compile of alu_control.vhd was successful.
+# Compile of single_cycle_processor.vhd failed with 1 errors.
+# Compile of single_cycle_processor.vhd failed with 1 errors.
+# Compile of single_cycle_processor.vhd failed with 1 errors.
+# Compile of single_cycle_processor.vhd failed with 16 errors.
+# Compile of single_cycle_processor.vhd failed with 15 errors.
+# Compile of single_cycle_processor.vhd failed with 12 errors.
+# Compile of single_cycle_processor.vhd failed with 12 errors.
+# Compile of single_cycle_processor.vhd failed with 10 errors.
+# Compile of single_cycle_processor.vhd failed with 9 errors.
+# Compile of single_cycle_processor.vhd failed with 9 errors.
+# Compile of single_cycle_processor.vhd failed with 9 errors.
+# Compile of single_cycle_processor.vhd failed with 10 errors.
+# Compile of single_cycle_processor.vhd failed with 7 errors.
+# Compile of single_cycle_processor.vhd failed with 6 errors.
+# Compile of single_cycle_processor.vhd failed with 6 errors.
+# Compile of single_cycle_processor.vhd failed with 5 errors.
+# Compile of single_cycle_processor.vhd failed with 4 errors.
+# Compile of single_cycle_processor.vhd failed with 3 errors.
+# Compile of single_cycle_processor.vhd failed with 2 errors.
+# Compile of single_cycle_processor.vhd was successful.

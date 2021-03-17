@@ -1,0 +1,101 @@
+Model Technology ModelSim SE-64 vcom 2020.2 Compiler 2020.04 Apr 19 2020
+Start time: 14:50:20 on Nov 26,2020
+vcom -2008 -work ModelSimWork/work ModelSimWork/src/*.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Adder_Subtractor
+-- Compiling architecture structure of Adder_Subtractor
+-- Compiling entity alu_32_bit
+-- Compiling architecture structure of alu_32_bit
+-- Compiling entity ALU_Barrel_Shifter
+-- Compiling architecture structure of ALU_Barrel_Shifter
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+-- Compiling entity Barrel_Shifter
+-- Compiling architecture structure of Barrel_Shifter
+-- Compiling entity B_inverter
+-- Compiling architecture dataflow of B_inverter
+-- Compiling entity control_logic_module
+-- Compiling architecture behaviorial of control_logic_module
+-- Loading package NUMERIC_STD
+-- Compiling entity decode32
+-- Compiling architecture dataflow of decode32
+-- Compiling entity dffgate
+-- Compiling architecture mixed of dffgate
+-- Compiling entity dffNbit
+-- Compiling architecture structure of dffNbit
+-- Compiling entity eight_to_one_mux
+-- Compiling architecture behavioral of eight_to_one_mux
+-- Compiling package MIPS_package
+-- Loading package MIPS_package
+-- Compiling entity eight_to_one_MUX_32_bit
+-- Compiling architecture behavioral of eight_to_one_MUX_32_bit
+-- Compiling entity EX_MEM_Register
+-- Compiling architecture mixed of EX_MEM_Register
+-- Compiling entity five_bit_mux
+-- Compiling architecture dataflow of five_bit_mux
+-- Compiling entity Full_Adder_Dataflow_N_Bit
+-- Compiling architecture structure of Full_Adder_Dataflow_N_Bit
+-- Compiling entity Full_Adder_Structural
+-- Compiling architecture structure of Full_Adder_Structural
+-- Compiling entity Full_Subtractor
+-- Compiling architecture dataflow of Full_Subtractor
+-- Compiling entity ID_EX_Register
+-- Compiling architecture mixed of ID_EX_Register
+-- Compiling entity IF_ID_Register
+-- Compiling architecture mixed of IF_ID_Register
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Compiling entity MEM_WB_Register
+-- Compiling architecture mixed of MEM_WB_Register
+-- Compiling entity MIPSRegister
+-- Compiling architecture mixed of MIPSRegister
+-- Compiling entity MIPS_Barrel_ALU
+-- Compiling architecture structure of MIPS_Barrel_ALU
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+-- Compiling entity mux4to32
+-- Compiling architecture dataflow of mux4to32
+-- Compiling entity MUX_dataflow
+-- Compiling architecture dataflow of MUX_dataflow
+-- Compiling entity MUX_structural_N_bit
+-- Compiling architecture structure of MUX_structural_N_bit
+-- Compiling entity n_register
+-- Compiling architecture behavior of n_register
+-- Compiling entity ones_complementer_dataflow
+-- Compiling architecture dataflow of ones_complementer_dataflow
+-- Compiling entity one_bit_ALU
+-- Compiling architecture structure of one_bit_ALU
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+-- Compiling entity Overflow
+-- Compiling architecture structure of Overflow
+-- Compiling entity Second_MIPS_Application
+-- Compiling architecture structural of Second_MIPS_Application
+-- Compiling entity shift_logic
+-- Compiling architecture dataflow of shift_logic
+-- Compiling entity sign_extender
+-- Compiling architecture dataflow of sign_extender
+-- Compiling entity slt_function
+-- Compiling architecture structure of slt_function
+-- Compiling entity tb_pipeline_registers
+-- Compiling architecture behavior of tb_pipeline_registers
+-- Compiling entity tb_Second_MIPS_Application
+-- Compiling architecture behavior of tb_Second_MIPS_Application
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb_SimplifiedMIPSProcessor
+-- Compiling architecture mixed of tb_SimplifiedMIPSProcessor
+-- Compiling entity two_one_mux_7
+-- Compiling architecture behavioral of two_one_mux_7
+-- Compiling entity two_to_one_mux
+-- Compiling architecture behavioral of two_to_one_mux
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity zero_check
+-- Compiling architecture behavioral of zero_check
+End time: 14:50:22 on Nov 26,2020, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0

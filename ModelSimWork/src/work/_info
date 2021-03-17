@@ -1,0 +1,348 @@
+m255
+K4
+z2
+!s11e vcom 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src
+T_opt
+!s110 1606426671
+VcEPB>HKQB9ieAQO9aNCe;3
+04 21 8 work tb_pipeline_registers behavior 1
+=1-509a4c47396c-5fc0202d-3b3-37fc
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.2;71
+R0
+T_opt1
+!s110 1606427552
+VKBR95G7FGJYlzcHdj6oia1
+04 21 9 work tb_pipeline_registers structure 1
+=1-509a4c47396c-5fc0239e-302-c48
+R1
+R2
+n@_opt1
+R3
+Edffgate
+Z4 w1573521832
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z7 8U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/dffgate.vhd
+Z8 FU:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/dffgate.vhd
+l0
+L21 1
+V^o3Pcz9z<ahK1XRkOHlod0
+!s100 inmdo2eW:LPMi2dcnfT`?0
+Z9 OL;C;2020.2;71
+32
+Z10 !s110 1606425856
+!i10b 1
+Z11 !s108 1606425856.000000
+Z12 !s90 -reportprogress|300|-work|work|U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/dffgate.vhd|
+Z13 !s107 U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/dffgate.vhd|
+!i113 0
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Amixed
+R5
+R6
+DEx4 work 7 dffgate 0 22 ^o3Pcz9z<ahK1XRkOHlod0
+!i122 0
+l35
+L31 29
+V4h;j:bmz@FZXmezGiAB>A0
+!s100 0F8a;Tem]BnU?3o<gFX^n3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Edffnbit
+Z16 w1605663641
+R5
+R6
+!i122 1
+R0
+Z17 8U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/dffNbit.vhd
+Z18 FU:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/dffNbit.vhd
+l0
+L4 1
+VO7_O3Vn0dRidC[RY^bh203
+!s100 =dfYzk]HO]zb:l8PzRT>K3
+R9
+32
+Z19 !s110 1606425857
+!i10b 1
+Z20 !s108 1606425857.000000
+Z21 !s90 -reportprogress|300|-work|work|U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/dffNbit.vhd|
+Z22 !s107 U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/dffNbit.vhd|
+!i113 0
+R14
+R15
+Astructure
+R5
+R6
+DEx4 work 7 dffnbit 0 22 O7_O3Vn0dRidC[RY^bh203
+!i122 1
+l23
+L13 23
+VkZbOK966CcNaZZa[95H9`0
+!s100 m_CeMgVS95JI:3W6kDaWE2
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R14
+R15
+Eex_mem_register
+Z23 w1606411968
+Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R5
+R6
+!i122 2
+R0
+Z25 8U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/EX_MEM_Register.vhd
+Z26 FU:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/EX_MEM_Register.vhd
+l0
+Z27 L11 1
+VF1W65V;T_8LPGiJWU3aS91
+!s100 ^WbCNJzfU=<ZhiZX;IiGF0
+R9
+32
+R19
+!i10b 1
+R20
+Z28 !s90 -reportprogress|300|-work|work|U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/EX_MEM_Register.vhd|
+Z29 !s107 U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/EX_MEM_Register.vhd|
+!i113 0
+R14
+R15
+Amixed
+R24
+R5
+R6
+DEx4 work 15 ex_mem_register 0 22 F1W65V;T_8LPGiJWU3aS91
+!i122 2
+l57
+L35 105
+Vn73A0GaMLMX920oSQQK_02
+!s100 CBFYCzfF5m>BAmPiTbZUF2
+R9
+32
+R19
+!i10b 1
+R20
+R28
+R29
+!i113 0
+R14
+R15
+Eid_ex_register
+Z30 w1606411984
+R24
+R5
+R6
+!i122 3
+R0
+Z31 8U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/ID_EX_Register.vhd
+Z32 FU:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/ID_EX_Register.vhd
+l0
+R27
+VZCAhL6_]cAlz]zCPXi`aX2
+!s100 YQNVVDo:XDR_jZ]I:Y1Um2
+R9
+32
+R19
+!i10b 1
+R20
+Z33 !s90 -reportprogress|300|-work|work|U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/ID_EX_Register.vhd|
+Z34 !s107 U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/ID_EX_Register.vhd|
+!i113 0
+R14
+R15
+Amixed
+R24
+R5
+R6
+DEx4 work 14 id_ex_register 0 22 ZCAhL6_]cAlz]zCPXi`aX2
+!i122 3
+l74
+L52 185
+V9E0m7`e0629@k@g9ToXz^2
+!s100 AFTYNB@PG04BIzAV0Y:Ol0
+R9
+32
+R19
+!i10b 1
+R20
+R33
+R34
+!i113 0
+R14
+R15
+Eif_id_register
+Z35 w1605656407
+R24
+R5
+R6
+!i122 4
+R0
+Z36 8U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/IF_ID_Register.vhd
+Z37 FU:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/IF_ID_Register.vhd
+l0
+R27
+V?CG`QDaO[Q0^5MQ^zjPo21
+!s100 N<X?7PG[eEfcIek:jzI;A0
+R9
+32
+Z38 !s110 1606425858
+!i10b 1
+R20
+Z39 !s90 -reportprogress|300|-work|work|U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/IF_ID_Register.vhd|
+Z40 !s107 U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/IF_ID_Register.vhd|
+!i113 0
+R14
+R15
+Amixed
+R24
+R5
+R6
+DEx4 work 14 if_id_register 0 22 ?CG`QDaO[Q0^5MQ^zjPo21
+!i122 4
+l34
+L21 36
+V6OS7SnRMD=ngFaaDif[M53
+!s100 GFF?h2:2_J_>Fc6?L<Xz<3
+R9
+32
+R38
+!i10b 1
+R20
+R39
+R40
+!i113 0
+R14
+R15
+Emem_wb_register
+Z41 w1606411975
+R24
+R5
+R6
+!i122 5
+R0
+Z42 8U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/MEM_WB_Register.vhd
+Z43 FU:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/MEM_WB_Register.vhd
+l0
+R27
+V=`12e?F[EU1LXh^[Tk3F30
+!s100 1gm3:5a>Te:md>>@V;H6J1
+R9
+32
+R38
+!i10b 1
+Z44 !s108 1606425858.000000
+Z45 !s90 -reportprogress|300|-work|work|U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/MEM_WB_Register.vhd|
+Z46 !s107 U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/MEM_WB_Register.vhd|
+!i113 0
+R14
+R15
+Amixed
+R24
+R5
+R6
+DEx4 work 15 mem_wb_register 0 22 =`12e?F[EU1LXh^[Tk3F30
+!i122 5
+l51
+L29 90
+VgGdQ0=MQN>^`A@2m`1iJ:0
+!s100 G64O`DzeXShN1OfD`eYbF0
+R9
+32
+R38
+!i10b 1
+R44
+R45
+R46
+!i113 0
+R14
+R15
+Etb_pipeline_registers
+Z47 w1606427500
+R24
+R5
+R6
+!i122 17
+R0
+Z48 8U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/tb_pipeline_registers.vhd
+Z49 FU:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/tb_pipeline_registers.vhd
+l0
+L5 1
+VX:O]i]oXVz4cz]hU]aZGY1
+!s100 K7lNbRCh6WGnb_FzA>gOa0
+R9
+32
+Z50 !s110 1606427542
+!i10b 1
+Z51 !s108 1606427542.000000
+Z52 !s90 -reportprogress|300|-work|work|U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/tb_pipeline_registers.vhd|
+Z53 !s107 U:/CPR E 381/Proj-C/cpre381-toolflow-release/ModelSimWork/src/tb_pipeline_registers.vhd|
+!i113 0
+R14
+R15
+Astructure
+R24
+R5
+R6
+DEx4 work 21 tb_pipeline_registers 0 22 X:O]i]oXVz4cz]hU]aZGY1
+!i122 17
+l135
+L15 227
+VaRc^PV?Pi9YG<Sh[TJl=V1
+!s100 J^FW?J8Lo5I53?[>QoOPj3
+R9
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 0
+R14
+R15
+Abehavior
+R24
+R5
+R6
+DEx4 work 21 tb_pipeline_registers 0 22 K[PhSN>JYjLK>^C4X^H2d1
+!i122 12
+l134
+L9 255
+VF8k>d^@YR_3Q:_c;E?B_72
+!s100 0S9Umj5U_o1R640?NBGOe1
+R9
+32
+!s110 1606426662
+!i10b 1
+!s108 1606426662.000000
+R52
+R53
+!i113 0
+R14
+R15
+w1606426619
